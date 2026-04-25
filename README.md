@@ -176,9 +176,6 @@ Another important text snippet.
 3. **Test**: `./test_wine_auto.sh` (Wine testing)
 4. **Deploy**: Package for Windows and Linux
 
-## 📄 Legacy Version (DEPRECATED)
-The original manual mode version (`memory_daemon.cpp`) with Ctrl+M trigger is deprecated and will be removed in a future version. Use `selection-logger-auto` for automatic monitoring instead.
-
 ## License
 MIT License
 ```

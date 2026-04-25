@@ -43,8 +43,8 @@ ifeq ($(PLATFORM),windows)
     MAIN_SRCS = memory_daemon_cross.cpp $(COMMON_SRCS)
     AUTO_SRCS = memory_daemon_auto_cross.cpp $(COMMON_SRCS)
 else
-    MAIN_SRCS = memory_daemon.cpp $(COMMON_SRCS)
-    AUTO_SRCS = memory_daemon_auto.cpp $(COMMON_SRCS)
+    MAIN_SRCS = memory_daemon_cross.cpp $(COMMON_SRCS)
+    AUTO_SRCS = memory_daemon_auto_cross.cpp $(COMMON_SRCS)
 endif
 
 # Object files
